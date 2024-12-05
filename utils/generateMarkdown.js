@@ -18,13 +18,13 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'MIT') {
-    return '[MIT](https://opensource.org/licenses/MIT)';
+    return '(https://opensource.org/licenses/MIT)';
   } else if (license === 'GNU') {
-    return '[GNU](https://www.gnu.org/licenses/gpl-3.0)';
+    return '(https://www.gnu.org/licenses/gpl-3.0)';
   } else if (license === 'Apache') {
-    return '[Apache](https://opensource.org/licenses/Apache-2.0)';
+    return '(https://opensource.org/licenses/Apache-2.0)';
   } else if (license === 'BSD') {
-    return '[BSD](https://opensource.org/licenses/BSD-3-Clause)';
+    return '(https://opensource.org/licenses/BSD-3-Clause)';
   } else {
     return '';
   }
@@ -34,13 +34,13 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === 'MIT') {
-    return `This project is licensed under the MIT license.`;
+    return `This project is licensed under the MIT license. ${renderLicenseLink(license)}`;
   } else if (license === 'GNU') {
-    return `This project is licensed under the GNU license.`;
+    return `This project is licensed under the GNU license. ${renderLicenseLink(license)}`;
   } else if (license === 'Apache') {
-    return `This project is licensed under the Apache license.`;
+    return `This project is licensed under the Apache license. ${renderLicenseLink(license)}`;
   } else if (license === 'BSD') {
-    return `This project is licensed under the BSD license.`;
+    return `This project is licensed under the BSD license. ${renderLicenseLink(license)}`;
   } else {
     return '';
   }
