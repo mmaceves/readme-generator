@@ -20,6 +20,7 @@ No installation needed.
 
 ## Usage
 
+Link to demonstration video: https://drive.google.com/file/d/1VEgDyRfYR0liEgVYQDf6md3xtPt00PnA/view
 Run 'node index.js' to launch the application.
 Answer the promted questions.
 Click and view the new README file.
