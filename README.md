@@ -16,7 +16,7 @@ This generator will come in handy for future projects.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+No installation needed.
 
 ## Usage
 
